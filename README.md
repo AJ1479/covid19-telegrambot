@@ -1,1 +1,1 @@
-# covi19-telegrambot
+# covid19-telegrambot
