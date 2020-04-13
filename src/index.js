@@ -41,14 +41,11 @@ api.on('message', async (message) => {
                 chat_id: message.chat.id,
                 text:
 
-               `Welcome to The India Covid-19 Tracker Bot! 🦠
+               `Welcome human
                 
-               
-A telegram bot to help track the spread of COVID-19 (coronavirus disease 2019) in India.
+This bot will give the latest statistics of COVID-19 cases in India.
                 
 Just ask me the count of the confirmed cases by sending me the name of the state or type in 'total' for the total count.
-                
-                  Stay Home, Stay Safe! 🏡
 
 P.S. Don't say hi to me`,
             });
