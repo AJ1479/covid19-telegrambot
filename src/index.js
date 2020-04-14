@@ -41,7 +41,7 @@ api.on('message', async (message) => {
                 chat_id: message.chat.id,
                 text:
 
-               `Welcome human
+               `Welcome human.
                 
 This bot will give you the latest statistics of COVID-19 cases in India.
                 
