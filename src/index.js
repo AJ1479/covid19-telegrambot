@@ -43,7 +43,7 @@ api.on('message', async (message) => {
 
                `Welcome human.
                 
-This bot will give you the latest statistics of COVID-19 cases in India.
+This bot will give you the latest stats of the COVID-19 cases in India.
                 
 Just ask me the count of the confirmed cases by sending me the name of the state or type in 'total' for the total count.
 
