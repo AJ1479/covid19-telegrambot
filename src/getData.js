@@ -10,4 +10,4 @@ const store = async () => {
         return err;
     }
 };
-module.exports = store;
+module.exports = { store };
