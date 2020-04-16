@@ -10,7 +10,7 @@ let j = 0;
 api.on('message', async (message) => {
     console.log(message);
     const doc = await getData.store();
-    const info = JSON.parse(doc.data).statewise;
+    const info = (JSON.parse(doc.data)).statewise;
     try {
         if (j === 0) {
             if (/^hi$/i.test(message.text)) {
@@ -44,7 +44,7 @@ P.S. Don't say hi to me`,
                 j = 1;
                 api.sendMessage({
                     chat_id: message.chat.id,
-                    text: 'Enter state',
+                    text: 'Enter state:',
                 });
             }
         } else {
